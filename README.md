@@ -11,9 +11,7 @@ Project met opdrachten als introductie tot Robot Framework
   - Controleer dat pip ook in geinstalleerd met ```pip --version```
 - Installeer [Node.js](https://nodejs.org/en/download)
   - Controleer dat Node goed geinstalleerd is door ```node -v``` in een command prompt te typen en een versie te zien.
-- Installeer Robot Framework via cmd Admin command line:
-
-```pip install robotframework```
+- Installeer Robot Framework via cmd Admin command line: ```pip install robotframework```
   - Controleer dat deze goed geinstalleerd is door ```robot --version``` in een command prompt te typen.
 
 - Installeer BrowserLibrary via cmd Admin command line:
@@ -22,3 +20,4 @@ Project met opdrachten als introductie tot Robot Framework
 
 ```rfbrowser init```
 - Download het voorbeeld project als [zip](https://github.com/tobiasverhoog/newspark-robot-framework-deepdive/archive/refs/heads/main.zip) of via git van: https://github.com/tobiasverhoog/newspark-robot-framework-deepdive
+  - Controleer dat alles werkt door in de terminal van vscode in de map Introduction het commando te typen ```robot 001_My_first_testcase.robot```
