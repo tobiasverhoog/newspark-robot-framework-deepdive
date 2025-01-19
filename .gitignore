@@ -10,3 +10,4 @@ output*.xml
 .DS_Store
 .vscode
 settings.json
+playwright-log.txt
