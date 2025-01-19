@@ -15,3 +15,4 @@ I login to the application
 
 I am logged in
     Get Element States    .app_logo    contains    visible
+    Take Screenshot
