@@ -1,5 +1,5 @@
 *** Settings ***
-#Library ??
+Library    SeleniumLibrary
 
 *** Test Cases ***
 Bekijk de website
