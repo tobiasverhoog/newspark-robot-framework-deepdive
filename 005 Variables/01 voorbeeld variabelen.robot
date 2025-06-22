@@ -13,7 +13,8 @@ Voorbeeld Variabelen Gebruik
     Log To Console    Hier komt de inline variabel: ${INLINE_VARIABEL}
 
 Voorbeeld Variabelen Gebruik Met VAR Keyword
-    [Documentation]    Testcase om sectie variabelen en inline variabelen te demonstreren met VAR keyword. VAR maakt de inline syntax hetzelfde als de sectie variabelen.
+    [Documentation]    Testcase om sectie variabelen en inline variabelen te demonstreren met VAR keyword. 
+    ...    VAR maakt de inline syntax hetzelfde als de sectie variabelen.
     Log To Console    Hier komen de VAR variabelen:
     VAR    ${hi}     Hello, world!
     VAR    ${hi2}    I said: ${hi}
