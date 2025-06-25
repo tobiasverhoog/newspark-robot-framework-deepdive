@@ -1,13 +1,13 @@
 *** Settings ***
 Documentation     A test suite with a single test for valid login.
 
-Library           Browser    #enable_presenter_mode=True
+Library           SeleniumLibrary
 
 Resource          Resources.robot
 Resource          Keywords.robot
 
 Suite Setup       Initiate browser
-Suite Teardown    Close Browser
+Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Log in to Swag Lab

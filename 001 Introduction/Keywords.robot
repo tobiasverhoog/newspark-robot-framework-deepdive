@@ -1,18 +1,19 @@
 *** Settings ***
-Library    Browser
+Library    SeleniumLibrary
+Resource   Resources.robot
 
 *** Keywords ***
 Initiate browser
-    New Browser    headless=no
+    Open Browser    Chrome
 
 I am at the Swag Lab homepage
-    New Page    ${BaseUrl}
+    Go To    ${BaseUrl}
     
 I login to the application
-    Type Text    id=user-name    standard_user
-    Type Text    id=password    secret_sauce
-    Click    css=.btn_action
+    Input Text    id=user-name    standard_user
+    Input Text    id=password    secret_sauce
+    Click Button    css=.btn_action
 
 I am logged in
-    Get Element States    .app_logo    contains    visible
-    Take Screenshot
+    Element Should Be Visible    .app_logo
+    Capture Page Screenshot
