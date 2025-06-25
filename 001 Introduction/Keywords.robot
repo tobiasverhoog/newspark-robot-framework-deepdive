@@ -3,11 +3,8 @@ Library    SeleniumLibrary
 Resource   Resources.robot
 
 *** Keywords ***
-Initiate browser
-    Open Browser    Chrome
-
 I am at the Swag Lab homepage
-    Go To    ${BaseUrl}
+    Open Browser    ${BaseUrl}    Edge
     
 I login to the application
     Input Text    id=user-name    standard_user
@@ -15,5 +12,5 @@ I login to the application
     Click Button    css=.btn_action
 
 I am logged in
-    Element Should Be Visible    .app_logo
+    Element Should Be Visible    class:app_logo
     Capture Page Screenshot

@@ -6,7 +6,6 @@ Library           SeleniumLibrary
 Resource          Resources.robot
 Resource          Keywords.robot
 
-Suite Setup       Initiate browser
 Suite Teardown    Close All Browsers
 
 *** Test Cases ***

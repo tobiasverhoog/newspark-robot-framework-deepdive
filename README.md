@@ -12,10 +12,6 @@ Project met opdrachten als introductie tot Robot Framework
   - Controleer dat pip ook is geinstalleerd met ```pip --version```
 - Installeer Robot Framework in een administrator command prompt: ```pip install robotframework```
   - Controleer dat deze goed geinstalleerd is door ```robot --version``` in een command prompt te typen.
-- Installeer de browser Chrome als je die nog niet hebt.
-  - Voeg een Chromedriver toe met deze stappen:
-    - Download [Chromedriver](https://googlechromelabs.github.io/chrome-for-testing/) die past bij jouw browserversie en besturingssysteem.
-    - Pak het bestand chromedriver uit en plaats het in een map die ook in je PATH staat.
 - Download het DeepDive project als [zip](https://github.com/tobiasverhoog/newspark-robot-framework-deepdive/archive/refs/heads/main.zip) of via git van: https://github.com/tobiasverhoog/newspark-robot-framework-deepdive
   - Controleer dat alles werkt door in de terminal van VS Code in de map 001 Introduction het commando te typen ```robot 001_My_first_testcase.robot```
 
