@@ -12,6 +12,8 @@ Project met opdrachten als introductie tot Robot Framework
   - Controleer dat pip ook is geinstalleerd met ```pip --version```
 - Installeer Robot Framework in een administrator command prompt: ```pip install robotframework```
   - Controleer dat deze goed geinstalleerd is door ```robot --version``` in een command prompt te typen.
+- Installeer de SeleniumLibrary
+  - ```pip install --upgrade robotframework-seleniumlibrary```
 - Download het DeepDive project als [zip](https://github.com/tobiasverhoog/newspark-robot-framework-deepdive/archive/refs/heads/main.zip) of via git van: https://github.com/tobiasverhoog/newspark-robot-framework-deepdive
   - Controleer dat alles werkt door in de terminal van VS Code in de map 001 Introduction het commando te typen ```robot 001_My_first_testcase.robot```
 
